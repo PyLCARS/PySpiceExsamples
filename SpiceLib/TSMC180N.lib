@@ -1,0 +1,52 @@
+*http://www.ece.umd.edu/~newcomb/courses/spring2010/303/tsmc180nmcmos.lib
+* PSPICE TSMC180nm.lib file  RWN  04/18/2010
+* library  file for transistor parameters for TMSC 0.18 micron process
+* uses BIM parameters added 01/15/98
+* can configure and attach to Nbreak and Pbreak transistors in PSpice
+****
+******************  180nm TSMC parameters  *************
+*T14B SPICE BSIM3 VERSION 3.1 PARAMETERS
+* downloaded from MOSIS 04/18/10
+*http://www.mosis.com/cgi-bin/cgiwrap/umosis/swp/params/
+* tsmc-018/t92y_mm_non_epi_thk_mtl_params.txt
+*SPICE 3f5 Level 8, Star-HSPICE Level 49, UTMOST Level 8
+* DATE: Jun  8/01
+* LOT: T14B                  WAF: 06
+* Temperature_parameters=Default
+.MODEL TSMC180nmN NMOS (                                LEVEL   = 8
++VERSION = 3.3            TNOM    = 27             TOX     = 4.1E-9
++XJ      = 1E-7           NCH     = 2.3549E17      VTH0    = 0.354505
++K1      = 0.5733393      K2      = 3.177172E-3    K3      = 27.3563303
++K3B     = -10            W0      = 2.341477E-5    NLX     = 1.906617E-7
++DVT0W   = 0              DVT1W   = 0              DVT2W   = 0
++DVT0    = 1.6751718      DVT1    = 0.4282625      DVT2    = 0.036004
++U0      = 327.3736992    UA      = -4.52726E-11   UB      = 4.46532E-19
++UC      = -4.74051E-11   VSAT    = 8.785346E4     A0      = 1.6897405
++AGS     = 0.2908676      B0      = -8.224961E-9   B1      = -1E-7
++KETA    = 0.021238       A1      = 8.00349E-4     A2      = 1
++RDSW    = 105            PRWG    = 0.5            PRWB    = -0.2
++WR      = 1              WINT    = 0              LINT    = 1.351737E-8
+*+XL      = -2E-8          XW      = -1E-8         
++ DWG     = 1.610448E-9
++DWB     = -5.108595E-9   VOFF    = -0.0652968     NFACTOR = 2.4901845
++CIT     = 0              CDSC    = 2.4E-4         CDSCD   = 0
++CDSCB   = 0              ETA0    = 0.0231564      ETAB    = -0.058499
++DSUB    = 0.9467118      PCLM    = 0.8512348      PDIBLC1 = 0.0929526
++PDIBLC2 = 0.01           PDIBLCB = -0.1           DROUT   = 0.5224026
++PSCBE1  = 7.979323E10    PSCBE2  = 1.522921E-9    PVAG    = 0.01
++DELTA   = 0.01           RSH     = 6.8            MOBMOD  = 1
++PRT     = 0              UTE     = -1.5           KT1     = -0.11
++KT1L    = 0              KT2     = 0.022          UA1     = 4.31E-9
++UB1     = -7.61E-18      UC1     = -5.6E-11       AT      = 3.3E4
++WL      = 0              WLN     = 1              WW      = 0
++WWN     = 1              WWL     = 0              LL      = 0
++LLN     = 1              LW      = 0              LWN     = 1
++LWL     = 0              CAPMOD  = 2              XPART   = 0.5
++CGDO    = 7.7E-10        CGSO    = 7.7E-10        CGBO    = 1E-12
++CJ      = 1.010083E-3    PB      = 0.7344298      MJ      = 0.3565066
++CJSW    = 2.441707E-10   PBSW    = 0.8005503      MJSW    = 0.1327842
++CJSWG   = 3.3E-10        PBSWG   = 0.8005503      MJSWG   = 0.1327842
++CF      = 0              PVTH0   = 1.307195E-3    PRDSW   = -5
++PK2     = -1.022757E-3   WKETA   = -4.466285E-4   LKETA   = -9.715157E-3
++PU0     = 12.2704847     PUA     = 4.421816E-11   PUB     = 0
++PVSAT   = 1.707461E3     PETA0   = 1E-4           PKETA   = 2.348777E-3     )
