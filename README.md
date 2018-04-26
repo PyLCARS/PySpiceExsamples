@@ -5,6 +5,6 @@ The directory [MosfetTopologies](https://github.com/PyLCARS/PySpiceExsamples/tre
 
 While the directory [Operational AmplifierTopologies]() is another sort of "Blog" [OpAmpLearn.ipynb](https://github.com/PyLCARS/PySpiceExsamples/blob/master/Operational%20AmplifierTopologies/OpAmpLearn.ipynb) that shows examples of theory of various Operational Amplifier Topologies that I am improving upon once a week
 
-The other material in this repository is some early work with PySpice where the necessary subfolder for the jupyter notebooks [BJTCurveTracerPySpice.ipynb](https://github.com/PyLCARS/PySpiceExsamples/blob/master/BJTCurveTracerPySpice.ipynb) and [DiodeConnectedMOFET.ipynb](https://github.com/PyLCARS/PySpiceExsamples/blob/master/DiodeConnectedMOFET.ipynb) is in the directory SpiceLib. 
+The other material in this repository is some early work with PySpice where the necessary subfolder for the jupyter notebooks [DiodeConnectedMOFET.ipynb](https://github.com/PyLCARS/PySpiceExsamples/blob/master/DiodeConnectedMOFET.ipynb) is in the directory SpiceLib. 
 
 Finlay  the notebook [SympyMOSModels.ipynb](https://github.com/PyLCARS/PySpiceExsamples/blob/master/SympyMOSModels.ipynb) is a Sympy equation generator for the Mosfet Equations 
